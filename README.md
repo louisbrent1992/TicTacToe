@@ -29,23 +29,23 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/louisbrent1992/repo_name">
+  <a href="https://github.com/louisbrent1992/TicTacToe">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">TicTacToe</h3>
 
   <p align="center">
-    project_description
+    A simple tic tac toe game created using JavaScript.
     <br />
-    <a href="https://github.com/louisbrent1992/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/louisbrent1992/TicTacToe"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/louisbrent1992/repo_name">View Demo</a>
+    <a href="https://github.com/louisbrent1992/TicTacToe">View Demo</a>
     ·
-    <a href="https://github.com/louisbrent1992/repo_name/issues">Report Bug</a>
+    <a href="https://github.com/louisbrent1992/TicTacToe/issues">Report Bug</a>
     ·
-    <a href="https://github.com/louisbrent1992/repo_name/issues">Request Feature</a>
+    <a href="https://github.com/louisbrent1992/TicTacToe/issues">Request Feature</a>
   </p>
 </div>
 
@@ -84,7 +84,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `repo_name`, `twitter_handle`, `project_title`, `project_description`
+Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `TicTacToe`, `twitter_handle`, `TicTacToe`, `A simple tic tac toe game created using JavaScript.`
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -92,14 +92,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ### Built With
 
-* [Next.js](https://nextjs.org/)
 * [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -124,7 +117,7 @@ This is an example of how to list things you need to use the software and how to
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
    ```sh
-   git clone https://github.com/louisbrent1992/repo_name.git
+   git clone https://github.com/louisbrent1992/TicTacToe.git
    ```
 3. Install NPM packages
    ```sh
@@ -158,7 +151,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 - [] Feature 3
     - [] Nested Feature
 
-See the [open issues](https://github.com/louisbrent1992/repo_name/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/louisbrent1992/TicTacToe/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -196,7 +189,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - louisbrent1992@gmail.com
 
-Project Link: [https://github.com/louisbrent1992/repo_name](https://github.com/louisbrent1992/repo_name)
+Project Link: [https://github.com/louisbrent1992/TicTacToe](https://github.com/louisbrent1992/TicTacToe)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -215,16 +208,16 @@ Project Link: [https://github.com/louisbrent1992/repo_name](https://github.com/l
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/louisbrent1992/repo_name.svg?style=for-the-badge
-[contributors-url]: https://github.com/louisbrent1992/repo_name/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/louisbrent1992/repo_name.svg?style=for-the-badge
-[forks-url]: https://github.com/louisbrent1992/repo_name/network/members
-[stars-shield]: https://img.shields.io/github/stars/louisbrent1992/repo_name.svg?style=for-the-badge
-[stars-url]: https://github.com/louisbrent1992/repo_name/stargazers
-[issues-shield]: https://img.shields.io/github/issues/louisbrent1992/repo_name.svg?style=for-the-badge
-[issues-url]: https://github.com/louisbrent1992/repo_name/issues
-[license-shield]: https://img.shields.io/github/license/louisbrent1992/repo_name.svg?style=for-the-badge
-[license-url]: https://github.com/louisbrent1992/repo_name/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/louisbrent1992/TicTacToe.svg?style=for-the-badge
+[contributors-url]: https://github.com/louisbrent1992/TicTacToe/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/louisbrent1992/TicTacToe.svg?style=for-the-badge
+[forks-url]: https://github.com/louisbrent1992/TicTacToe/network/members
+[stars-shield]: https://img.shields.io/github/stars/louisbrent1992/TicTacToe.svg?style=for-the-badge
+[stars-url]: https://github.com/louisbrent1992/TicTacToe/stargazers
+[issues-shield]: https://img.shields.io/github/issues/louisbrent1992/TicTacToe.svg?style=for-the-badge
+[issues-url]: https://github.com/louisbrent1992/TicTacToe/issues
+[license-shield]: https://img.shields.io/github/license/louisbrent1992/TicTacToe.svg?style=for-the-badge
+[license-url]: https://github.com/louisbrent1992/TicTacToe/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/louis-brent
 [product-screenshot]: images/screenshot.png

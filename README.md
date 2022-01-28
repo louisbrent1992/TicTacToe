@@ -92,7 +92,8 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ### Built With
 
-* [React.js](https://reactjs.org/)
+* [JavaScript](https://javascript.com/)
+* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -182,10 +183,11 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [] Feature 1
-- [] Feature 2
-- [] Feature 3
-    - [] Nested Feature
+- [] Advanced CSS Hover Effects
+- [] Advanced JS Game Logic
+- [] CSS Not Selector
+- [] CSS Shape Building
+- [] CSS Global Variables
 
 See the [open issues](https://github.com/louisbrent1992/TicTacToe/issues) for a full list of proposed features (and known issues).
 

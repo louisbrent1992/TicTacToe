@@ -1,4 +1,3 @@
-
 // Selector of all cell elements.
 const cellElements = document.querySelectorAll("[data-cell]");
 const board = document.getElementById("board");
@@ -26,28 +25,26 @@ let circleTurn;
 playButton.addEventListener("click", playNow);
 
 function playNow() {
-    // Hide play now button by adding hide class
-    container.classList.add("hide");
-    // Set board to display
-    board.classList.add("show");
-    // Start game
-    startGame();
+  // Hide play now button by adding hide class
+  container.classList.add("hide");
+  // Set board to display
+  board.classList.add("show");
+  // Start game
+  startGame();
 }
-
-
 
 // Initializes default state of the game
 function startGame() {
   circleTurn = false;
   // Every time we click on a cell, we want to add a handleClick function. Also, we only want the click event to fire once.
   cellElements.forEach((cell) => {
-    cell.classList.remove(X_CLASS)
-    cell.classList.remove(CIRCLE_CLASS)
-    cell.removeEventListener('click', handleClick)
+    cell.classList.remove(X_CLASS);
+    cell.classList.remove(CIRCLE_CLASS);
+    cell.removeEventListener("click", handleClick);
     cell.addEventListener("click", handleClick, { once: true });
   });
   setBoardHoverClass();
-  winningMessageElement.classList.remove('show');
+  winningMessageElement.classList.remove("show");
 }
 
 function handleClick(e) {
@@ -103,18 +100,22 @@ function checkWin(currentClass) {
 
 // If every single cell contains an X or O class, then the game is a draw.
 function isDraw() {
-  return [...cellElements].every(cell => {
-    return cell.classList.contains(X_CLASS) || cell.classList.contains(CIRCLE_CLASS)
-  })
+  return [...cellElements].every((cell) => {
+    return (
+      cell.classList.contains(X_CLASS) || cell.classList.contains(CIRCLE_CLASS)
+    );
+  });
 }
 
 function endGame(draw) {
   if (draw) {
-    winningMessageTextElement.innerText = 'Draw!'
+    winningMessageTextElement.innerText = "Draw!";
   } else {
-    winningMessageTextElement.innerText = `${circleTurn ? "Circle" : "X"} Wins!`;
+    winningMessageTextElement.innerText = `${
+      circleTurn ? "Circle" : "X"
+    } Wins!`;
   }
   winningMessageElement.classList.add("show");
 }
 
-restartButton.addEventListener('click', startGame);
+restartButton.addEventListener("click", startGame);

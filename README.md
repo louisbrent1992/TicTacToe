@@ -82,7 +82,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]]
+[![Product Name Screen Shot][product-screenshot]]()
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -111,9 +111,10 @@
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-[![Product Name Screen Shot][product-screenshot2]]
+[![Product Name Screen Shot][product-screenshot2]]()
 
-[![Product Name Screen Shot][product-screenshot3]]
+[![Product Name Screen Shot][product-screenshot3]]()
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 

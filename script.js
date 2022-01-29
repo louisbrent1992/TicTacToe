@@ -7,6 +7,8 @@ const winningMessageTextElement = document.querySelector(
 );
 const winningMessageElement = document.getElementById("winningMessage");
 const restartButton = document.getElementById("restartButton");
+const playButton = document.getElementById("playButton");
+const container = document.getElementById("container");
 const X_CLASS = "x";
 const CIRCLE_CLASS = "circle";
 const WINNING_COMBINATIONS = [
@@ -21,7 +23,18 @@ const WINNING_COMBINATIONS = [
 ];
 let circleTurn;
 
-startGame();
+playButton.addEventListener("click", playNow);
+
+function playNow() {
+    // Hide play now button by adding hide class
+    container.classList.add("hide");
+    // Set board to display
+    board.classList.add("show");
+    // Start game
+    startGame();
+}
+
+
 
 // Initializes default state of the game
 function startGame() {
@@ -99,7 +112,7 @@ function endGame(draw) {
   if (draw) {
     winningMessageTextElement.innerText = 'Draw!'
   } else {
-    winningMessageTextElement.innerText = `${circleTurn ? "O" : "X"} Wins!`;
+    winningMessageTextElement.innerText = `${circleTurn ? "Circle" : "X"} Wins!`;
   }
   winningMessageElement.classList.add("show");
 }

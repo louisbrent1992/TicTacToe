@@ -30,7 +30,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/louisbrent1992/TicTacToe">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/x-icon.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">TicTacToe</h3>
@@ -83,8 +83,6 @@
 ## About The Project
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `TicTacToe`, `twitter_handle`, `TicTacToe`, `A simple tic tac toe game created using JavaScript.`
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -225,7 +223,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - louisbrent1992@gmail.com
+Your Name - [@louisbrent1992](https://twitter.com/louisbrent1992) - louisbrent1992@gmail.com
 
 Project Link: [https://github.com/louisbrent1992/TicTacToe](https://github.com/louisbrent1992/TicTacToe)
 
@@ -258,4 +256,4 @@ Project Link: [https://github.com/louisbrent1992/TicTacToe](https://github.com/l
 [license-url]: https://github.com/louisbrent1992/TicTacToe/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/louis-brent
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: images/screenshot-1.png

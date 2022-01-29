@@ -82,7 +82,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]]()
+[![Product Name Screen Shot][product-screenshot]](https://raw.githubusercontent.com/louisbrent1992/TicTacToe/main/images/screenshot-1.png)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -111,9 +111,9 @@
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-[![Product Name Screen Shot][product-screenshot2]]()
+[![Product Name Screen Shot][product-screenshot2]](https://raw.githubusercontent.com/louisbrent1992/TicTacToe/main/images/screenshot-2.png)
 
-[![Product Name Screen Shot][product-screenshot3]]()
+[![Product Name Screen Shot][product-screenshot3]](https://raw.githubusercontent.com/louisbrent1992/TicTacToe/main/images/screenshot-3.png)
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>

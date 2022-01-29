@@ -50,6 +50,9 @@ function startGame() {
 function handleClick(e) {
   const cell = e.target;
   const currentClass = circleTurn ? CIRCLE_CLASS : X_CLASS;
+  // Check if computer is playing
+  // if computer turn {
+
   // Place mark.
   placeMark(cell, currentClass);
   // Check for win. If it's not a win, it's a draw.
@@ -73,6 +76,17 @@ function placeMark(cell, currentClass) {
 // Switches between X and O turns
 function swapTurns() {
   circleTurn = !circleTurn;
+}
+
+// Computer turn
+function computerTurn(getRandomComputerCell) {
+  let selection = getRandomComputerCell();
+  cellElements[selection];
+}
+
+// Calculates random number between 0 and 8
+function getRandomComputerCell() {
+  return Math.floor(Math.random() * 9);
 }
 
 // Adds hover class based on the current turn

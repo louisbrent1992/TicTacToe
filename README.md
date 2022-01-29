@@ -189,7 +189,7 @@ Project Link: [https://github.com/louisbrent1992/TicTacToe](https://github.com/l
 [forks-shield]: https://img.shields.io/github/forks/louisbrent1992/TicTacToe.svg?style=for-the-badge
 [forks-url]: https://github.com/louisbrent1992/TicTacToe/network/members
 [stars-shield]: https://img.shields.io/github/stars/louisbrent1992/TicTacToe.svg?style=for-the-badge
-[stars-url]: https://github.com/louisbrent1992/TicTacToe/star
+[stars-url]: https://github.com/louisbrent1992/TicTacToe/stargazers
 [issues-shield]: https://img.shields.io/github/issues/louisbrent1992/TicTacToe.svg?style=for-the-badge
 [issues-url]: https://github.com/louisbrent1992/TicTacToe/issues
 [license-shield]: https://img.shields.io/github/license/louisbrent1992/TicTacToe.svg?style=for-the-badge

@@ -181,11 +181,11 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-* [](Advanced CSS Hover Effects)
-* [](Advanced JS Game Logic)
-* [](CSS Not Selector)
-* [](CSS Shape Building)
-* [](CSS Global Variables)
+* Advanced CSS Hover Effects
+* Advanced JS Game Logic
+* CSS Not Selector
+* CSS Shape Building
+* CSS Global Variables
 
 See the [open issues](https://github.com/louisbrent1992/TicTacToe/issues) for a full list of proposed features (and known issues).
 
@@ -234,9 +234,7 @@ Project Link: [https://github.com/louisbrent1992/TicTacToe](https://github.com/l
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
+* WebDevSimplified
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 

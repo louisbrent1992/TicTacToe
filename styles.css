@@ -9,19 +9,38 @@
     --cell-size: 100px;
     /* The size of our Xs and Os */
     /* The mark size will be 90% of the cell size as we want the mark size to be slightly smaller than the cell size. */
-    --mark-size: calc(var(--cell-size) * .9)
+    --mark-size: calc(var(--cell-size) * .9);
+
+    /* Font settings for title elements */
+    --font-size-large: 5rem;
+    --font-family-large: 'Courier New', Courier, monospace;
 }
 
 body {
     margin: 0;
 }
 
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+h1 {
+    font-family: var(--font-family-large);
+    font-size: var(--font-size-large);
+}
+
+.board.show {
+    display: grid;
+}
+
 /* Element that wraps all of our cells. */
 .board {
     /* Sets the view of the board to cover the entire screen by default, to make it easier to center all of the elements inside of the board. */
     width: 100vw;
-    height: 100vh;
-    display: grid;
+    height: 70vh;
+    display: none;
     justify-content: center;
     align-content: center;
     /* Centers the Xs and Os in our board cells */
@@ -138,9 +157,19 @@ body {
     background-color: white;
 }
 
+/* Play Now button container */
+.container {
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* Styling for Play Now button */
 .play-now button {
-    font-size: 3rem;
+    font-size: var(--font-size-large);
+    font-family: var(--font-family-large);
     background-color: white;
     border: 1px solid black;
     padding: .25rem .5em;
@@ -151,6 +180,10 @@ body {
     background-color: black;
     color: white;
     border-color: white;
+}
+
+.container.hide {
+    display: none;
 }
 
 /* Styling for winning message screen */

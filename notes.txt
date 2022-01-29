@@ -1,0 +1,4 @@
+New Feature - Add Computer AI
+1. Computer would take turn after the user
+2. Computer would select from computations based on number of cells(9) to decide which cell to place mark next
+3. Computer logic will be based on the current state of the board

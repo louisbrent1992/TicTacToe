@@ -9,6 +9,15 @@
     <title>Tic Tac Toe</title>
   </head>
   <body>
+    <div class="header">
+      <!-- Title -->
+      <h1>Tic Tac Toe</h1>
+    </div>
+    <!-- Play Now Button -->
+    <div class="container play-now" id="container">
+      <button id="playButton">Play Now</button>
+    </div>
+    <!-- Game board display -->
     <div class="board" id="board">
       <div class="cell" data-cell></div>
       <div class="cell" data-cell></div>
@@ -20,6 +29,7 @@
       <div class="cell" data-cell></div>
       <div class="cell" data-cell></div>
     </div>
+    <!-- Winning message screen with restart button -->
     <div class="winning-message" id="winningMessage">
       <div data-winning-message-text></div>
       <button id="restartButton">Restart</button>

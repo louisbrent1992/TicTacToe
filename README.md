@@ -40,7 +40,7 @@
     <a href="https://github.com/louisbrent1992/TicTacToe"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/louisbrent1992/TicTacToe">View Demo</a>
+    <a href="https://tic-tac-toe-eta-wheat.vercel.app/">View Demo</a>
     ·
     <a href="https://github.com/louisbrent1992/TicTacToe/issues">Report Bug</a>
     ·
